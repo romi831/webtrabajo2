@@ -1,0 +1,132 @@
+/*-- Google Fonts --*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300;700;900&family=Oswald:wght@300;500;700&family=Roboto+Slab:wght@100;400;900&family=Roboto:ital,wght@0,400;1,100;1,900&display=swap');
+
+
+
+/*-- Fonts --*/
+
+body{
+
+font-family: 'Oswald', sans-serif;
+font-family: 'Roboto', sans-serif;
+background-color:#e7dfd5;
+
+}
+
+
+
+
+h2{
+	font-family: 'Roboto', sans-serif;
+    color:black;
+    text-align:left;
+    font-size: 20px;
+
+}
+
+
+/*--Banner--*/
+
+#banner {
+  background-size:cover;
+  background-position:center;
+  padding: 100px;
+  border-radius: 20%;
+}
+
+#banner h1 {
+  margin: 0;
+  color: #b7efcd;
+  text-shadow: 2px 2px 4px color:black;
+  font-size: 60px;
+  font-weight: bold;text-align: center;
+  font-family: 'Grenze Gotisch', cursive;
+   
+}
+
+#banner p {
+  font-size: 20px;
+  color: white;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+  background-position: center;
+  margin: 20%;
+}
+
+
+/*--card--*/
+
+
+.card{
+	background-size: cover;
+	background-image: cover;
+	background-position: center;
+    background-image:center; 
+   
+}
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 5px 3px 4px rgba(0,0,0,0.2);
+  border-radius:  50px ;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2)
+  margin:10px 10px 10px 10px;
+  font-style:italic;
+ 
+}
+
+
+.btn-flat {
+  color:black;
+  padding: 8px 24px;
+  border-radius: 20px;
+  background: #d4b5b0;
+  transition: background 0.3s ease;
+}
+
+.btn-flat:hover {
+  background:pink;
+  color: white;
+}
+
+/*--Footer--*/
+
+.footer {
+  background: #ccafaf;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: red;}
+
+
+
+
+
